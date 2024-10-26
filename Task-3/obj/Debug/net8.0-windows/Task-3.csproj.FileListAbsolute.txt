@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\bin\Debug\net8.0-windows\Task-3.exe
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\bin\Debug\net8.0-windows\Task-3.deps.json
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\bin\Debug\net8.0-windows\Task-3.runtimeconfig.json
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\bin\Debug\net8.0-windows\Task-3.dll
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\bin\Debug\net8.0-windows\Task-3.pdb
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task_3.Form1.resources
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.AssemblyInfo.cs
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.sourcelink.json
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.dll
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\refint\Task-3.dll
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.pdb
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\Task-3.genruntimeconfig.cache
+C:\Users\user\Desktop\Programming\back-end\WinForm\WinFormPractice\WInForm-Tasks\Task-3\obj\Debug\net8.0-windows\ref\Task-3.dll
