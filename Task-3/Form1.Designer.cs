@@ -32,7 +32,7 @@
             erase = new Label();
             sqrt = new Label();
             clear = new Label();
-            label3 = new Label();
+            power = new Label();
             clearEntry = new Label();
             eight = new Label();
             divide = new Label();
@@ -58,7 +58,6 @@
             // 
             screen.FormattingEnabled = true;
             screen.ItemHeight = 15;
-            screen.Items.AddRange(new object[] { " " });
             screen.Location = new Point(28, 30);
             screen.Name = "screen";
             screen.Size = new Size(339, 124);
@@ -68,6 +67,7 @@
             // 
             erase.AutoSize = true;
             erase.BackColor = Color.FromArgb(224, 224, 224);
+            erase.Cursor = Cursors.Hand;
             erase.Location = new Point(28, 186);
             erase.Name = "erase";
             erase.Padding = new Padding(19, 15, 19, 15);
@@ -80,6 +80,7 @@
             // 
             sqrt.AutoSize = true;
             sqrt.BackColor = Color.FromArgb(224, 224, 224);
+            sqrt.Cursor = Cursors.Hand;
             sqrt.Location = new Point(304, 186);
             sqrt.Name = "sqrt";
             sqrt.Padding = new Padding(19, 15, 19, 15);
@@ -91,29 +92,32 @@
             // 
             clear.AutoSize = true;
             clear.BackColor = Color.FromArgb(224, 224, 224);
+            clear.Cursor = Cursors.Hand;
             clear.Location = new Point(166, 186);
             clear.Name = "clear";
             clear.Padding = new Padding(19, 15, 19, 15);
             clear.Size = new Size(53, 45);
             clear.TabIndex = 3;
             clear.Text = "C";
-            clear.Click += label2_Click;
             // 
-            // label3
+            // power
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(224, 224, 224);
-            label3.Location = new Point(235, 186);
-            label3.Name = "label3";
-            label3.Padding = new Padding(19, 15, 19, 15);
-            label3.Size = new Size(50, 45);
-            label3.TabIndex = 4;
-            label3.Text = "?";
+            power.AutoSize = true;
+            power.BackColor = Color.FromArgb(224, 224, 224);
+            power.Cursor = Cursors.Hand;
+            power.Location = new Point(235, 186);
+            power.Margin = new Padding(2, 0, 2, 0);
+            power.Name = "power";
+            power.Padding = new Padding(19, 15, 19, 15);
+            power.Size = new Size(59, 45);
+            power.TabIndex = 4;
+            power.Text = "^2";
             // 
             // clearEntry
             // 
             clearEntry.AutoSize = true;
             clearEntry.BackColor = Color.FromArgb(224, 224, 224);
+            clearEntry.Cursor = Cursors.Hand;
             clearEntry.Location = new Point(97, 186);
             clearEntry.Name = "clearEntry";
             clearEntry.Padding = new Padding(19, 15, 19, 15);
@@ -125,6 +129,7 @@
             // 
             eight.AutoSize = true;
             eight.BackColor = Color.FromArgb(224, 224, 224);
+            eight.Cursor = Cursors.Hand;
             eight.Location = new Point(97, 243);
             eight.Name = "eight";
             eight.Padding = new Padding(19, 15, 19, 15);
@@ -136,6 +141,7 @@
             // 
             divide.AutoSize = true;
             divide.BackColor = Color.FromArgb(224, 224, 224);
+            divide.Cursor = Cursors.Hand;
             divide.Location = new Point(235, 243);
             divide.Name = "divide";
             divide.Padding = new Padding(19, 15, 19, 15);
@@ -147,6 +153,7 @@
             // 
             nine.AutoSize = true;
             nine.BackColor = Color.FromArgb(224, 224, 224);
+            nine.Cursor = Cursors.Hand;
             nine.Location = new Point(166, 243);
             nine.Name = "nine";
             nine.Padding = new Padding(19, 15, 19, 15);
@@ -158,6 +165,7 @@
             // 
             percentDivide.AutoSize = true;
             percentDivide.BackColor = Color.FromArgb(224, 224, 224);
+            percentDivide.Cursor = Cursors.Hand;
             percentDivide.Location = new Point(304, 243);
             percentDivide.Name = "percentDivide";
             percentDivide.Padding = new Padding(19, 15, 19, 15);
@@ -169,6 +177,7 @@
             // 
             seven.AutoSize = true;
             seven.BackColor = Color.FromArgb(224, 224, 224);
+            seven.Cursor = Cursors.Hand;
             seven.Location = new Point(28, 243);
             seven.Name = "seven";
             seven.Padding = new Padding(19, 15, 19, 15);
@@ -180,6 +189,7 @@
             // 
             multiple.AutoSize = true;
             multiple.BackColor = Color.FromArgb(224, 224, 224);
+            multiple.Cursor = Cursors.Hand;
             multiple.Location = new Point(235, 298);
             multiple.Name = "multiple";
             multiple.Padding = new Padding(19, 15, 19, 15);
@@ -191,6 +201,7 @@
             // 
             reverse.AutoSize = true;
             reverse.BackColor = Color.FromArgb(224, 224, 224);
+            reverse.Cursor = Cursors.Hand;
             reverse.Location = new Point(304, 298);
             reverse.Name = "reverse";
             reverse.Padding = new Padding(15);
@@ -202,6 +213,7 @@
             // 
             minus.AutoSize = true;
             minus.BackColor = Color.FromArgb(224, 224, 224);
+            minus.Cursor = Cursors.Hand;
             minus.Location = new Point(235, 355);
             minus.Name = "minus";
             minus.Padding = new Padding(19, 15, 19, 15);
@@ -213,6 +225,7 @@
             // 
             one.AutoSize = true;
             one.BackColor = Color.FromArgb(224, 224, 224);
+            one.Cursor = Cursors.Hand;
             one.Location = new Point(28, 355);
             one.Name = "one";
             one.Padding = new Padding(19, 15, 19, 15);
@@ -224,6 +237,7 @@
             // 
             plus.AutoSize = true;
             plus.BackColor = Color.FromArgb(224, 224, 224);
+            plus.Cursor = Cursors.Hand;
             plus.Location = new Point(235, 412);
             plus.Name = "plus";
             plus.Padding = new Padding(19, 15, 19, 15);
@@ -235,6 +249,7 @@
             // 
             dote.AutoSize = true;
             dote.BackColor = Color.FromArgb(224, 224, 224);
+            dote.Cursor = Cursors.Hand;
             dote.Location = new Point(166, 412);
             dote.Name = "dote";
             dote.Padding = new Padding(19, 15, 19, 15);
@@ -246,6 +261,7 @@
             // 
             equal.AutoSize = true;
             equal.BackColor = Color.FromArgb(224, 224, 224);
+            equal.Cursor = Cursors.Hand;
             equal.Location = new Point(304, 355);
             equal.Name = "equal";
             equal.Padding = new Padding(19, 44, 19, 44);
@@ -257,6 +273,7 @@
             // 
             zero.AutoSize = true;
             zero.BackColor = Color.FromArgb(224, 224, 224);
+            zero.Cursor = Cursors.Hand;
             zero.Location = new Point(28, 412);
             zero.Name = "zero";
             zero.Padding = new Padding(53, 15, 53, 15);
@@ -268,6 +285,7 @@
             // 
             five.AutoSize = true;
             five.BackColor = Color.FromArgb(224, 224, 224);
+            five.Cursor = Cursors.Hand;
             five.Location = new Point(96, 298);
             five.Name = "five";
             five.Padding = new Padding(19, 15, 19, 15);
@@ -279,6 +297,7 @@
             // 
             six.AutoSize = true;
             six.BackColor = Color.FromArgb(224, 224, 224);
+            six.Cursor = Cursors.Hand;
             six.Location = new Point(165, 298);
             six.Name = "six";
             six.Padding = new Padding(19, 15, 19, 15);
@@ -290,6 +309,7 @@
             // 
             four.AutoSize = true;
             four.BackColor = Color.FromArgb(224, 224, 224);
+            four.Cursor = Cursors.Hand;
             four.Location = new Point(27, 298);
             four.Name = "four";
             four.Padding = new Padding(19, 15, 19, 15);
@@ -301,6 +321,7 @@
             // 
             three.AutoSize = true;
             three.BackColor = Color.FromArgb(224, 224, 224);
+            three.Cursor = Cursors.Hand;
             three.Location = new Point(165, 355);
             three.Name = "three";
             three.Padding = new Padding(19, 15, 19, 15);
@@ -312,6 +333,7 @@
             // 
             two.AutoSize = true;
             two.BackColor = Color.FromArgb(224, 224, 224);
+            two.Cursor = Cursors.Hand;
             two.Location = new Point(96, 355);
             two.Name = "two";
             two.Padding = new Padding(19, 15, 19, 15);
@@ -324,7 +346,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 192, 192);
-            ClientSize = new Size(399, 493);
+            ClientSize = new Size(397, 493);
             Controls.Add(three);
             Controls.Add(two);
             Controls.Add(five);
@@ -344,7 +366,7 @@
             Controls.Add(percentDivide);
             Controls.Add(seven);
             Controls.Add(clearEntry);
-            Controls.Add(label3);
+            Controls.Add(power);
             Controls.Add(clear);
             Controls.Add(sqrt);
             Controls.Add(erase);
@@ -360,7 +382,6 @@
         private ListBox screen;
         private Label erase;
         private Label clear;
-        private Label label3;
         private Label clearEntry;
         private Label label10;
         private Label label12;
@@ -390,6 +411,7 @@
         private Label multiple;
         private Label percentDivide;
         private Label sqrt;
+        private Label power;
         private Label reverse;
 
         //Other expressions

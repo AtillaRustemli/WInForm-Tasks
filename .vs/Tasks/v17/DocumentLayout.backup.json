@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{EB04812D-6C3E-4271-BA31-B8AE0F42E0AA}|Task-3\\Task-3.csproj|solutionrelative:task-3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB04812D-6C3E-4271-BA31-B8AE0F42E0AA}|Task-3\\Task-3.csproj|c:\\users\\user\\desktop\\programming\\back-end\\winform\\winformpractice\\winform-tasks\\task-3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EB04812D-6C3E-4271-BA31-B8AE0F42E0AA}|Task-3\\Task-3.csproj|C:\\Users\\user\\Desktop\\Programming\\back-end\\WinForm\\WinFormPractice\\WInForm-Tasks\\task-3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EB04812D-6C3E-4271-BA31-B8AE0F42E0AA}|Task-3\\Task-3.csproj|solutionrelative:task-3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,9 +32,9 @@
               "RelativeDocumentMoniker": "Task-3\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\back-end\\WinForm\\WinFormPractice\\WInForm-Tasks\\Task-3\\Form1.Designer.cs",
               "RelativeToolTip": "Task-3\\Form1.Designer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwIUBAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAMwGQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T05:41:56.671Z",
+              "WhenOpened": "2024-11-15T19:28:41.241Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Task-3\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\back-end\\WinForm\\WinFormPractice\\WInForm-Tasks\\Task-3\\Form1.cs*",
               "RelativeToolTip": "Task-3\\Form1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T18:37:05.941Z",
               "EditorCaption": ""
