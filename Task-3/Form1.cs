@@ -73,6 +73,7 @@ namespace Task_3
                             {
                                 if (screen.Items[^1] is string)
                                     screen.Items.Add(Math.Pow(double.Parse((string)screen.Items[^1]), 2));
+
                                 else screen.Items.Add(Math.Pow((double)screen.Items[^1], 2));
                             }
 
