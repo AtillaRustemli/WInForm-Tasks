@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             background = new Panel();
+            bombCount = new NumericUpDown();
             menuBoard = new Panel();
             lostMessage = new Label();
             start = new Button();
@@ -38,6 +39,7 @@
             left = new PictureBox();
             right = new PictureBox();
             background.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)bombCount).BeginInit();
             menuBoard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)boy).BeginInit();
             ((System.ComponentModel.ISupportInitialize)left).BeginInit();
@@ -47,12 +49,21 @@
             // background
             // 
             background.BackColor = Color.LightSkyBlue;
+            background.Controls.Add(bombCount);
             background.Controls.Add(menuBoard);
             background.Controls.Add(boy);
             background.Location = new Point(3, 1);
             background.Name = "background";
             background.Size = new Size(494, 454);
             background.TabIndex = 0;
+            // 
+            // bombCount
+            // 
+            bombCount.Location = new Point(0, 0);
+            bombCount.Maximum = new decimal(new int[] { 1000000000, 0, 0, 0 });
+            bombCount.Name = "bombCount";
+            bombCount.Size = new Size(45, 23);
+            bombCount.TabIndex = 2;
             // 
             // menuBoard
             // 
@@ -88,11 +99,11 @@
             // 
             // boy
             // 
-            boy.Image = Properties.Resources.Boy;
-            boy.Location = new Point(219, 331);
+            boy.Image = (Image)resources.GetObject("boy.Image");
+            boy.Location = new Point(219, 389);
             boy.Margin = new Padding(0);
             boy.Name = "boy";
-            boy.Size = new Size(45, 144);
+            boy.Size = new Size(54, 65);
             boy.SizeMode = PictureBoxSizeMode.Zoom;
             boy.TabIndex = 0;
             boy.TabStop = false;
@@ -142,6 +153,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             background.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)bombCount).EndInit();
             menuBoard.ResumeLayout(false);
             menuBoard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)boy).EndInit();
@@ -160,5 +172,6 @@
         private Panel menuBoard;
         private Button start;
         private Label lostMessage;
+        private NumericUpDown bombCount;
     }
 }
